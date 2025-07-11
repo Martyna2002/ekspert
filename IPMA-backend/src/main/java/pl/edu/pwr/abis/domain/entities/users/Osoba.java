@@ -7,7 +7,11 @@ import pl.edu.pwr.abis.domain.entities.Organizacja;
 
 import java.util.List;
 
+import lombok.*;
+
 @Entity
+@Getter
+@Setter
 public class Osoba {
     @Id
     private Long id;
