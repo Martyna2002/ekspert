@@ -161,6 +161,8 @@ dependencies {
     testImplementation "org.testcontainers:testcontainers"
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
+
+    implementation 'org.postgresql:postgresql:42.7.3'
     // jhipster-needle-gradle-dependency - JHipster will add additional dependencies here
 }
 
